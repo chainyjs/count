@@ -1,12 +1,11 @@
 {
-  "title": "count action for [ChainyJS](http://chainy.bevry.me)",
+  "title": "Count action for [ChainyJS](http://chainyjs.org)",
   "name": "chainy-plugin-count",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Chainy action that outputs the length of the chain's data",
   "homepage": "https://github.com/chainy-plugins/count",
   "keywords": [
     "chainy-action",
-    "chainy-modifier",
     "chainy-plugin",
     "chainy-extension",
     "chainy-addon",
@@ -30,7 +29,9 @@
   "maintainers": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
-  "contributors": [],
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
   "bugs": {
     "url": "https://github.com/chainy-plugins/count/issues"
   },
@@ -43,12 +44,14 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "chainy-core": "*"
+    "chainy-core": "1",
+    "chainy-plugin-set": "1",
+    "chainy-plugin-log": "1"
   },
   "devDependencies": {
-    "chainy-plugin-set": "*",
-    "chainy-core": "*",
-    "joe": "~1.4.0",
+    "chainy-plugin-set": "1",
+    "chainy-core": "1",
+    "joe": "~1.5.0",
     "joe-reporter-console": "~1.2.1",
     "chai": "~1.9.1",
     "projectz": "~0.3.11"

@@ -1,7 +1,7 @@
 
 <!-- TITLE/ -->
 
-# count action for [ChainyJS](http://chainy.bevry.me)
+# Count action for [ChainyJS](http://chainyjs.org)
 
 <!-- /TITLE -->
 
@@ -31,9 +31,9 @@ Chainy action that outputs the length of the chain's data
 
 
 ``` javascript
-require('chainy-core').create().require('set count')
+require('chainy').create().require('set count')
 	.set(['a', 'b', 'c'])
-	.count() // 3
+	.count()  // 3
 ```
 
 <!-- /CHAINY_DOCUMENTATION -->
@@ -50,7 +50,7 @@ require('chainy-core').create().require('set count')
 ### [Browserify](http://browserify.org/)
 - Use: `require('chainy-plugin-count')`
 - Install: `npm install --save chainy-plugin-count`
-- CDN URL: `//wzrd.in/bundle/chainy-plugin-count@0.1.0`
+- CDN URL: `//wzrd.in/bundle/chainy-plugin-count@1.0.0`
 
 ### [Ender](http://ender.jit.su/)
 - Use: `require('chainy-plugin-count')`
@@ -98,8 +98,11 @@ No sponsors yet! Will you be the first?
 
 ### Contributors
 
-No contributors yet! Will you be the first?
-[Discover how you can contribute by heading on over to the `CONTRIBUTING.md` file.](https://github.com/chainy-plugins/chainy-plugin-count/blob/master/CONTRIBUTING.md#files)
+These amazing people have contributed code to this project:
+
+- [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/chainy-plugins/count/commits?author=balupton)
+
+[Become a contributor!](https://github.com/chainy-plugins/chainy-plugin-count/blob/master/CONTRIBUTING.md#files)
 
 <!-- /BACKERS -->
 
