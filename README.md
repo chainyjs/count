@@ -50,7 +50,7 @@ require('chainy').create().require('set count')
 ### [Browserify](http://browserify.org/)
 - Use: `require('chainy-plugin-count')`
 - Install: `npm install --save chainy-plugin-count`
-- CDN URL: `//wzrd.in/bundle/chainy-plugin-count@1.0.0`
+- CDN URL: `//wzrd.in/bundle/chainy-plugin-count@1.0.1`
 
 ### [Ender](http://ender.jit.su/)
 - Use: `require('chainy-plugin-count')`

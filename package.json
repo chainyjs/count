@@ -1,7 +1,7 @@
 {
   "title": "Count action for [ChainyJS](http://chainyjs.org)",
   "name": "chainy-plugin-count",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chainy action that outputs the length of the chain's data",
   "homepage": "https://github.com/chainy-plugins/count",
   "keywords": [
@@ -44,7 +44,7 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "chainy-core": "1",
+    "chainy-core": "^1.2.0",
     "chainy-plugin-set": "1",
     "chainy-plugin-log": "1"
   },
